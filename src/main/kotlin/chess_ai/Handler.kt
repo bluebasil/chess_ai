@@ -7,7 +7,7 @@ class Handler : RequestHandler<Map<String, String>, String>{
         println("Hello World!")
         println(context)
         println(event)
-        main(arrayOf())
+        test(arrayOf())
         return "Success"
     }
 }

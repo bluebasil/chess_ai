@@ -17,4 +17,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/chess_ai-0.0.1.jar
+    - target/chess_ai-0.0.1-jar-with-dependencies.jar
