@@ -8,14 +8,10 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Kotlin code...
-      - pwd
-      - ls
       - mvn compile
-      - ls target
-      - ls target/*
       - ls target/classes/*
       - mvn package
-      - ls
+      - ls target -la
   post_build:
     commands:
       - echo Build completed on `date`
