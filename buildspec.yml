@@ -11,7 +11,9 @@ phases:
       - pwd
       - ls
       - mvn compile
-      - ls
+      - ls target
+      - ls target/*
+      - ls target/classes/*
       - mvn package
       - ls
   post_build:
