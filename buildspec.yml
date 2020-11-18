@@ -18,3 +18,4 @@ phases:
 artifacts:
   files:
     - target/chess_ai-0.0.1-jar-with-dependencies.jar
+    - appspec.yml

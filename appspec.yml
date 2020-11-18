@@ -1,0 +1,12 @@
+version: 0
+Resources:
+  ChessLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        S3Bucket: arn:aws:s3:::eli-sandbox
+        S3Key: chess_ai/target/chess_ai-0.0.1-jar-with-dependencies.jar
+      FunctionName: chess_ai
+      Handler: chess_ai.Handler
+      Role: arn:aws:iam::697518699624:role/lambda_chess
+      Runtime: java11
