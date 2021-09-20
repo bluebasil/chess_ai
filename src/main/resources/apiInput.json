@@ -1,0 +1,37 @@
+{
+  "body": "loadHere",
+  "headers": {
+    "accept": "*/*",
+    "content-length": "9",
+    "content-type": "application/x-www-form-urlencoded",
+    "host": "wd3853r6g7.execute-api.ca-central-1.amazonaws.com",
+    "user-agent": "curl/7.51.0",
+    "x-amzn-trace-id": "Root=1-5fb83946-219b6d521f08ed6c32486e96",
+    "x-forwarded-for": "24.212.218.107",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https"
+  },
+  "isBase64Encoded": "false",
+  "rawPath": "/get_chess_move",
+  "rawQueryString": "",
+  "requestContext": {
+    "accountId": "697518699624",
+    "apiId": "wd3853r6g7",
+    "domainName": "wd3853r6g7.execute-api.ca-central-1.amazonaws.com",
+    "domainPrefix": "wd3853r6g7",
+    "http": {
+      "method": "POST",
+      "path": "/get_chess_move",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "24.212.218.107",
+      "userAgent": "curl/7.51.0"
+    },
+    "requestId": "WU3i9iu74osEJBA=",
+    "routeKey": "POST /get_chess_move",
+    "stage": "$default",
+    "time": "20/Nov/2020:21:46:46 +0000",
+    "timeEpoch": "1605908806075"
+  },
+  "routeKey": "POST /get_chess_move",
+  "version": "2.0"
+}

@@ -1,0 +1,44 @@
+pieceTemplates:
+  - &pt1
+    name: King
+    moveRepeat: 0
+    moveset: &m1
+      - a
+      - b
+      - c
+      - d
+    firstMoveSet: *m1
+    captureSet: *m1
+pieceInstances:
+  - &pi1
+    type: *pt1
+    color: white
+    moved: 0
+  - &pi2
+    type: *pt1
+    color: black
+    moved: 0
+tiles: &t1
+  a: null
+  b: &t2
+    a: null
+    b: null
+    c: &t3
+      a: *t2
+      b: null
+      c: null
+      d: &t4
+        a: *t1
+        b: *t3
+        c: null
+        d: null
+        has: null
+      has: *pi2
+    d: *t1
+    has: null
+  c: *t4
+  d: null
+  has: *pi1
+move:
+  tile: *t1
+  move: b

@@ -1,0 +1,2 @@
+resursive: &r
+  r2: *r
